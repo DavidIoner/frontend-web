@@ -1,4 +1,4 @@
-export default function Register() {
+export default function Signin() {
     return(
         <div>
             <h1>Registre-se</h1>
