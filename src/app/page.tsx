@@ -1,14 +1,9 @@
 import { Counter } from "@/components/counter";
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
-   <div className="h-screen">
-    <div>
-      <h1>Home</h1>
-      <Counter />
-    </div>
-    
-   </div>
+    <div>main</div>
+
   )
 }
