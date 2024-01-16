@@ -1,13 +1,14 @@
-import Link from "next/link";
-
-
+import { Counter } from "@/components/counter";
 
 
 export default function Home() {
   return (
-   <div>
-    <h1>Home</h1>
-    <Link href={"/dashboard"}>Dashboard</Link>
+   <div className="h-screen">
+    <div>
+      <h1>Home</h1>
+      <Counter />
+    </div>
+    
    </div>
   )
 }
