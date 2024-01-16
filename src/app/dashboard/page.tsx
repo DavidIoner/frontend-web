@@ -1,10 +1,15 @@
-import Link from "next/link";
 
-export default function Dashboard() {
-    return(
-        <div>
-            <h1>Dashboard</h1>
-            <Link href={"/"}>homepage</Link>
-        </div>
-    )
+
+export default async function Test() {
+    const response = await fetch('https://api.github.com/users/DavidIoner', {
+        cache: 'no-cache',
+    })
+
+  const user = await response.json()
+
+  return(
+    <div>
+        <pre>{JSON.stringify(user, null, 2)}</pre>
+    </div>
+  )
 }
