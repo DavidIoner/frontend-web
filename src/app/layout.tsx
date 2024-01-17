@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className='bg-zinc-800 text-zinc-50'>
+      <body className='bg-zinc-700 text-zinc-50'>
         <div className="h-screen flex flex-col">
           <div className="flex flex-1">
             <aside className="w-64 bg-gradient-to-r from-zinc-700 via-zinc-800 to-zinc-900 p-6">
