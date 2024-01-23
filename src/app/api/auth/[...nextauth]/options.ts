@@ -15,7 +15,7 @@ export const options: NextAuthOptions = {
                 if (user && 
                     user?.email === credentials?.email &&
                     user?.password === credentials?.password) {
-                        return user
+                    return user
                     }
                 return null
             }
